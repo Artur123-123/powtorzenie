@@ -6,10 +6,6 @@
     text-align: center;
 }
 
-.rose {
-    display: block;
-}
-
 .border {
     border-radius: 50%;
 }
@@ -19,4 +15,39 @@
     background-color: rgb(10, 122, 173);
     width: 15px;
     height: 14px;
+    margin: 0 auto;
+}
+
+img {
+    width: 256px;
+    height: 256px;
+}
+
+img:hover {
+    animation-name: animacja;
+    transform: scale(1.2);
+    animation-fill-mode: forwards;
+    animation-duration: 200ms;
+}
+
+@keyframes animacja {
+    from {
+        width: 256px;
+        height: 256px;
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.img-animation {
+    overflow: hidden;
+}
+
+.img-hover {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
 }
