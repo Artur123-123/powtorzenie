@@ -25,9 +25,8 @@ img {
 
 img:hover {
     animation-name: animacja;
-    transform: scale(1.2);
     animation-fill-mode: forwards;
-    animation-duration: 200ms;
+    animation-duration: 500ms;
 }
 
 @keyframes animacja {
@@ -36,7 +35,7 @@ img:hover {
         height: 256px;
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 }
 
@@ -50,4 +49,10 @@ img:hover {
 
 .center {
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
