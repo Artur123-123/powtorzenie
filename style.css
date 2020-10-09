@@ -1,0 +1,22 @@
+.row {
+    text-align: center
+}
+
+.oferta {
+    text-align: center;
+}
+
+.rose {
+    display: block;
+}
+
+.border {
+    border-radius: 50%;
+}
+
+.fa-adjust {
+    border-radius: 50%;
+    background-color: rgb(10, 122, 173);
+    width: 15px;
+    height: 14px;
+}
